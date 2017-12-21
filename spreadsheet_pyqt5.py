@@ -126,6 +126,6 @@ class SpreadSheet(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     sheet = SpreadSheet(5, 5)
-    sheet.resize(640, 480)
+    sheet.resize(520, 200)
     sheet.show()
     sys.exit(app.exec_())
